@@ -876,14 +876,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.INSTANCE)
 	recipe:AddCustom("ENG_GNOMER")
 
-	-- Salt Shaker -- 19567
-	recipe = AddRecipe(19567, V.ORIG, Q.COMMON)
-	recipe:SetSkillLevels(250, 250, 270, 280, 290)
-	recipe:SetCraftedItem(15846, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1676, 1702, 3290, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
-
 	-- Dense Blasting Powder -- 19788
 	recipe = AddRecipe(19788, V.ORIG, Q.COMMON)
 	recipe:SetSkillLevels(250, 250, 250, 255, 260)
@@ -2097,20 +2089,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11037, 16726, 17222, 17634, 17637, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
 
-	-- Hand-Mounted Pyro Rocket -- 54998
-	recipe = AddRecipe(54998, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 402, 405)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11037, 16726, 17222, 17634, 17637, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
-
-	-- Hyperspeed Accelerators -- 54999
-	recipe = AddRecipe(54999, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 402, 405)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11037, 16726, 17222, 17634, 17637, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
-
 	-- Flexweave Underlay -- 55002
 	recipe = AddRecipe(55002, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(380, 380, 380, 382, 385)
@@ -2411,13 +2389,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(1676, 1702, 3290, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
 
-	-- Reticulated Armor Webbing -- 63770
-	recipe = AddRecipe(63770, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 402, 405)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK)
-	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11037, 16726, 17222, 17634, 17637, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143)
-
 	-- Goblin Beam Welder -- 67326
 	recipe = AddRecipe(67326, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(410, 410, 415, 420, 425)
@@ -2508,28 +2479,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE, F.PRIEST, F.WARLOCK)
 	recipe:AddTrainer(3494, 5174, 5518, 8736, 11017, 11025, 16726, 17222, 17634, 17637, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 55143)
-
-	-- Synapse Springs -- 82175
-	recipe = AddRecipe(82175, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 560, 565, 570)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11037, 16726, 17222, 33586, 52636, 52651, 55143)
-	recipe:AddDiscovery("ENG_DISC")
-
-	-- Quickflip Deflection Plates -- 82177
-	recipe = AddRecipe(82177, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 425, 437, 450)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddDiscovery("ENG_DISC")
-
-	-- Tazik Shocker -- 82180
-	recipe = AddRecipe(82180, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 425, 437, 450)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddDiscovery("ENG_DISC")
 
 	-- Spinal Healing Injector -- 82200
 	recipe = AddRecipe(82200, V.CATA, Q.COMMON)
@@ -2768,20 +2717,6 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Mists of Pandaria.
 	-------------------------------------------------------------------------------
-	-- Phase Fingers -- 108789
-	recipe = AddRecipe(108789, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 560, 565, 570)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11037, 16726, 17222, 33586, 52636, 52651, 55143)
-
-	-- Incendiary Fireworks Launcher -- 109077
-	recipe = AddRecipe(109077, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 560, 565, 570)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11037, 16726, 17222, 33586, 52636, 52651, 55143)
-
 	-- Watergliding Jets -- 109099
 	recipe = AddRecipe(109099, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
@@ -2795,15 +2730,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(4941, 5174, 5518, 11017, 11037, 16726, 17222, 33586, 52636, 52651, 55143)
-
-	-- Synapse Springs -- 126731
-	recipe = AddRecipe(126731, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(82175)
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11037, 16726, 17222, 33586, 52636, 52651, 55143)
-	recipe:AddDiscovery("ENG_DISC")
 
 	-- Ghost Iron Bolts -- 127113
 	recipe = AddRecipe(127113, V.MOP, Q.COMMON)
