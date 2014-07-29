@@ -1606,8 +1606,8 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(23874, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(23819, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CONSORTIUM)
-	recipe:AddRepVendor(FAC.CONSORTIUM, REP.REVERED, 20242, 23007)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_CONSORTIUM)
+	recipe:AddRepVendor(FAC.THE_CONSORTIUM, REP.REVERED, 20242, 23007)
 
 	-- Zapthrottle Mote Extractor -- 30548
 	recipe = AddRecipe(30548, V.TBC, Q.COMMON)
