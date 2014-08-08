@@ -2320,7 +2320,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41508, "BIND_ON_EQUIP")
 	recipe:SetRequiredFaction("Horde")
 	recipe:SetItemFilterType("ENGINEERING_MOUNT")
-	recipe:AddFilters(F.HORDE, F.WRATHCOMMON1)
+	recipe:AddFilters(F.HORDE)
 	recipe:AddRepVendor(FAC.HORDE_EXPEDITION, REP.EXALTED, 32565, 32774)
 
 	-- Mekgineer's Chopper -- 60867
@@ -2330,7 +2330,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44413, "BIND_ON_EQUIP")
 	recipe:SetRequiredFaction("Alliance")
 	recipe:SetItemFilterType("ENGINEERING_MOUNT")
-	recipe:AddFilters(F.ALLIANCE, F.WRATHCOMMON1)
+	recipe:AddFilters(F.ALLIANCE)
 	recipe:AddRepVendor(FAC.ALLIANCE_VANGUARD, REP.EXALTED, 32564, 32773)
 
 	-- Nesingwary 4000 -- 60874
