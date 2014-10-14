@@ -63,7 +63,7 @@ function module:InitializeTrainers()
 	addon:AddTrainer(52651, "Engineer Palehoof", Z.THUNDER_BLUFF, 36.1, 59.6, "Horde")
 	addon:AddTrainer(55143, "Sally Fizzlefury", Z.VALLEY_OF_THE_FOUR_WINDS, 16.1, 83.1, "Neutral")
 	addon:AddTrainer(85918, "Hilda Copperfuze", Z.STORMSHIELD, 48.2, 40.5, "Alliance")
-	addon:AddTrainer(86141, "Dina Sprockettoss", Z.STORMSHIELD, 47.4, 39.9, "Alliance")
+	addon:AddTrainer(86012, "Han Leaprocket", Z.WARSPEAR, 71.8, 39.2, "Horde")
 
 	self.InitializeTrainers = nil
 end
