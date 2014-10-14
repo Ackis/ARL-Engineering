@@ -53,6 +53,10 @@ function module:InitializeVendors()
 	AddVendor(49918,	L["Buckslappy"],			Z.BADLANDS,			90.9,	38.8,	"Neutral")
 	AddVendor(52655,	L["Palehoof's Big Bag of Parts"],	Z.THUNDER_BLUFF,		36.2,	60.2,	"Horde")
 	AddVendor(67976,	L["Tinkmaster Overspark"],		Z.KRASARANG_WILDS,		16.5,	79.3,	"Alliance")
+	AddVendor(77365,	L["Zaren Hoffle"],			Z.LUNARFALL,			 0.0,	 0.0,	"Alliance") -- Alliance Garrison
+	AddVendor(79826,	L["Pozzlow"],				Z.FROSTWALL,			 0.0,	 0.0,	"Horde") -- Horde Garrison
+	AddVendor(87065,	L["Sean Catchpole"],			Z.STORMSHIELD,			47.8,	40.6,	"Alliance") -- Alliance Ashran
+	AddVendor(87552,	L["Nik Steelrings"],			Z.WARSPEAR,			70.6,	39.6,	"Horde") -- Alliance Ashran
 
 	self.InitializeVendors = nil
 end
