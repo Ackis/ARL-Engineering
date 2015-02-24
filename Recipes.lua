@@ -3043,5 +3043,21 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
+	-- Oglethorpe's Octagonal Lenses  -- 181423
+	recipe = AddRecipe(181423, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(122546, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(122545, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
+	-- Primal Welding -- 182120
+	recipe = AddRecipe(182120, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(122712, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(111366, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
+	recipe:AddVendor(90894, 91030)
+
 	self.InitializeRecipes = nil
 end
