@@ -2987,6 +2987,33 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
+	-- Alliance Firework -- 171072
+	recipe = AddRecipe(171072, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(500, 500, 525, 537, 550)
+	recipe:SetRecipeItem(116142, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(116147, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(15909)
+	recipe:AddWorldEvent("LUNAR_FESTIVAL")
+
+	-- Horde Firework -- 171073
+	recipe = AddRecipe(171073, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(500, 500, 525, 537, 550)
+	recipe:SetRecipeItem(116144, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(116148, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(15909)
+	recipe:AddWorldEvent("LUNAR_FESTIVAL")
+
+	-- Snake Firework -- 171074
+	recipe = AddRecipe(171074, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(500, 500, 525, 537, 550)
+	recipe:SetRecipeItem(116146, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(116149, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(15909)
+	recipe:AddWorldEvent("LUNAR_FESTIVAL")
+
 	-- Hemet's Heartseeker -- 173289
 	recipe = AddRecipe(173289, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 700, 700)
