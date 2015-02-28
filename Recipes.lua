@@ -2852,7 +2852,7 @@ function module:InitializeRecipes()
 
 	-- Megawatt Filament -- 162203
 	recipe = AddRecipe(162203, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 700, 702, 705)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118478, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(109122, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
@@ -2861,7 +2861,7 @@ function module:InitializeRecipes()
 
 	-- Goblin Glider Kit -- 162204
 	recipe = AddRecipe(162204, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 625, 627, 630)
+	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(109076, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.MISC1)
@@ -2869,7 +2869,7 @@ function module:InitializeRecipes()
 
 	-- Findle's Loot-a-Rang -- 162205
 	recipe = AddRecipe(162205, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 700, 702, 705)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118480, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(109167, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
@@ -2877,7 +2877,7 @@ function module:InitializeRecipes()
 
 	-- World Shrinker -- 162206
 	recipe = AddRecipe(162206, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 700, 702, 705)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118481, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(109183, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
@@ -2885,7 +2885,7 @@ function module:InitializeRecipes()
 
 	-- Stealthman 54 -- 162207
 	recipe = AddRecipe(162207, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 625, 627, 630)
+	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(109184, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.MISC1)
@@ -2902,7 +2902,7 @@ function module:InitializeRecipes()
 
 	-- Mechanical Axebeak -- 162209
 	recipe = AddRecipe(162209, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 700, 702, 705)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118484, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(111402, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_PET")
@@ -2910,7 +2910,7 @@ function module:InitializeRecipes()
 
 	-- Lifelike Mechanical Frostboar -- 162210
 	recipe = AddRecipe(162210, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 700, 702, 705)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118485, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(112057, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_PET")
@@ -2973,7 +2973,7 @@ function module:InitializeRecipes()
 
 	-- Gearspring Parts -- 169080
 	recipe = AddRecipe(169080, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 600, 800, 1000)
+	recipe:SetSkillLevels(1, 1, 600, 800, 1000)
 	recipe:SetCraftedItem(111366, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddFilters(F.MISC1)
@@ -3024,7 +3024,7 @@ function module:InitializeRecipes()
 
 	-- Mecha-Blast Rocket -- 173308
 	recipe = AddRecipe(173308, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 625, 627, 630)
+	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(118007, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.MISC1)
@@ -3032,7 +3032,7 @@ function module:InitializeRecipes()
 
 	-- Shieldtronic Shield -- 173309
 	recipe = AddRecipe(173309, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 625, 627, 630)
+	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(118006, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.MISC1)
@@ -3048,7 +3048,7 @@ function module:InitializeRecipes()
 
 	-- Secrets of Draenor Engineering -- 177054
 	recipe = AddRecipe(177054, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 600, 600, 650, 700)
+	recipe:SetSkillLevels(1, 1, 600, 650, 700)
 	recipe:SetCraftedItem(119299, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.MISC1)
