@@ -3070,6 +3070,14 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
+	-- Precision Scope Tuning Kit -- 181422
+	recipe = AddRecipe(181422, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(122554, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(122544, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
 	-- Oglethorpe's Octagonal Lenses  -- 181423
 	recipe = AddRecipe(181423, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
