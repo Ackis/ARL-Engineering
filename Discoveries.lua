@@ -34,7 +34,6 @@ function module:InitializeDiscoveries()
 
 	AddDiscovery("ENG_DISC")
 	AddDiscovery("ENG_DISC_FIREWORKS")
-	AddDiscovery("ENG_DISC_ARMY_KNIFE")
 
 	self.InitializeDiscoveries = nil
 end
