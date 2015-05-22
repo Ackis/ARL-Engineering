@@ -3011,6 +3011,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(118492, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(114055, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(77365, 79826, 87065, 87552)
 
 	-- Didi's Delicate Assembly -- 169078
 	recipe = AddRecipe(169078, V.WOD, Q.COMMON)
