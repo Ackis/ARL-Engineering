@@ -815,18 +815,18 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(205, 205, 205, 205, 205)
 	recipe:SetRecipeItem(11828, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(11825, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.MISC1)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
 	recipe:SetItemFilterType("ENGINEERING_PET")
-	recipe:AddCustom("ENG_GNOMER")
+	recipe:AddWorldDrop(Z.GNOMEREGAN)
 
 	-- Lil' Smoky -- 15633
 	recipe = AddRecipe(15633, V.ORIG, Q.UNCOMMON)
 	recipe:SetSkillLevels(205, 205, 205, 205, 205)
 	recipe:SetRecipeItem(11827, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(11826, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.MISC1)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
 	recipe:SetItemFilterType("ENGINEERING_PET")
-	recipe:AddCustom("ENG_GNOMER")
+	recipe:AddWorldDrop(Z.GNOMEREGAN)
 
 	-- Dense Blasting Powder -- 19788
 	recipe = AddRecipe(19788, V.ORIG, Q.COMMON)
