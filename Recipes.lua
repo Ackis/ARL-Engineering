@@ -1697,7 +1697,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(32474, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.HUNTER, F.SHAMAN)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586)
+	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 85918, 86012)
 
 	-- Gadgetstorm Goggles -- 41315
 	recipe = AddRecipe(41315, V.TBC, Q.COMMON)
@@ -1705,7 +1705,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(32476, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.SHAMAN, F.CASTER)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586)
+	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 85918, 86012)
 
 	-- Living Replicator Specs -- 41316
 	recipe = AddRecipe(41316, V.TBC, Q.COMMON)
@@ -1713,7 +1713,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(32475, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.SHAMAN, F.HEALER, F.CASTER)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586)
+	recipe:AddTrainer(4941, 11037, 17222, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 85918, 86012)
 
 	-- Deathblow X11 Goggles -- 41317
 	recipe = AddRecipe(41317, V.TBC, Q.COMMON)
@@ -2136,7 +2136,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42555, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.MONK, F.HEALER)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 25277, 26907, 26955, 26991, 28697, 33586)
+	recipe:AddTrainer(4941, 11037, 17222, 25277, 26907, 26955, 26991, 28697, 33586, 85918, 86012)
 
 	-- Global Thermal Sapper Charge -- 56514
 	recipe = AddRecipe(56514, V.WOTLK, Q.COMMON)
@@ -2152,7 +2152,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42551, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.HUNTER, F.SHAMAN)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 25277, 26907, 26955, 26991, 28697, 33586)
+	recipe:AddTrainer(4941, 11037, 17222, 25277, 26907, 26955, 26991, 28697, 33586, 85918, 86012)
 
 	-- Mechano-Hog -- 60866
 	recipe = AddRecipe(60866, V.WOTLK, Q.EPIC)
@@ -2278,7 +2278,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(59456, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.HUNTER, F.SHAMAN, F.DPS)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 5518, 11017, 11037, 17222)
+	recipe:AddTrainer(4941, 5518, 11017, 11037, 17222, 85918, 86012)
 
 	-- Energized Bio-Optic Killshades -- 81720
 	recipe = AddRecipe(81720, V.CATA, Q.COMMON)
@@ -2286,7 +2286,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(59458, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.MONK, F.HEALER)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 5518, 11017, 11037, 17222)
+	recipe:AddTrainer(4941, 5518, 11017, 11037, 17222, 85918, 86012)
 
 	-- Agile Bio-Optic Killshades -- 81722
 	recipe = AddRecipe(81722, V.CATA, Q.COMMON)
@@ -2589,7 +2589,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77536, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.HUNTER, F.SHAMAN, F.DPS)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 55143)
+	recipe:AddTrainer(4941, 11037, 17222, 55143, 85918, 86012)
 
 	-- Energized Retinal Armor -- 127121
 	recipe = AddRecipe(127121, V.MOP, Q.COMMON)
@@ -2597,7 +2597,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77537, "BIND_ON_PICKUP")
 	recipe:AddFilters(F.MONK, F.HEALER)
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 11037, 17222, 55143)
+	recipe:AddTrainer(4941, 11037, 17222, 55143, 85918, 86012)
 
 	-- Specialized Retinal Armor -- 127122
 	recipe = AddRecipe(127122, V.MOP, Q.COMMON)
