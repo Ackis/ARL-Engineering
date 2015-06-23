@@ -80,7 +80,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 20, 30, 40)
 	recipe:SetCraftedItem(4357, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DEFAULT_RECIPE")
 
 	-- Rough Dynamite -- 3919
@@ -88,7 +87,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 30, 45, 60)
 	recipe:SetCraftedItem(4358, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DEFAULT_RECIPE")
 
 	-- Handful of Copper Bolts -- 3922
@@ -815,7 +813,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(205, 205, 205, 205, 205)
 	recipe:SetRecipeItem(11828, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(11825, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:SetItemFilterType("ENGINEERING_PET")
 	recipe:AddWorldDrop(Z.GNOMEREGAN)
 
@@ -824,7 +822,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(205, 205, 205, 205, 205)
 	recipe:SetRecipeItem(11827, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(11826, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:SetItemFilterType("ENGINEERING_PET")
 	recipe:AddWorldDrop(Z.GNOMEREGAN)
 
@@ -964,7 +962,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(300, 300, 320, 330, 340)
 	recipe:SetCraftedItem(18232, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("ENG_FLOOR_ITEM_BRD")
 
 	-- Biznicks 247x128 Accurascope -- 22793
@@ -1060,7 +1057,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetRecipeItem(18655, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(18637, "BIND_ON_EQUIP")
-	recipe:AddFilters(F.MISC1)
 	recipe:SetItemFilterType("ENGINEERING_TRINKET")
 	recipe:AddCustom("DM_TRIBUTE")
 
@@ -2922,7 +2918,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(109076, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Findle's Loot-a-Rang -- 162205
@@ -2946,7 +2941,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(109184, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Mechanical Axebeak -- 162209
@@ -3026,7 +3020,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 600, 800, 1000)
 	recipe:SetCraftedItem(111366, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Ultimate Gnomish Army Knife -- 169140
@@ -3034,7 +3027,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 700, 700, 700)
 	recipe:SetCraftedItem(111366, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Alliance Firework -- 171072
@@ -3077,7 +3069,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(118007, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Shieldtronic Shield -- 173309
@@ -3085,7 +3076,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 625, 627, 630)
 	recipe:SetCraftedItem(118006, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Mechanical Scorpid -- 176732
@@ -3101,7 +3091,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 600, 650, 700)
 	recipe:SetCraftedItem(119299, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.MISC1)
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- True Iron Trigger -- 177363
@@ -3126,7 +3115,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122554, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122544, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(90894, 91030)
+	recipe:Retire()
 
 	-- Oglethorpe's Octagonal Lenses  -- 181423
 	recipe = AddRecipe(181423, V.WOD, Q.COMMON)
@@ -3134,7 +3123,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122546, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122545, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(90894, 91030)
+	recipe:Retire()
 
 	-- Primal Welding -- 182120
 	recipe = AddRecipe(182120, V.WOD, Q.COMMON)
@@ -3142,6 +3131,38 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122712, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(111366, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
+	recipe:AddVendor(90894, 91030)
+
+	-- Advanced Muzzlesprocket -- 187496
+	recipe = AddRecipe(187496, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127729, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127719, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
+	-- Bi-Directional Fizzle Reducer -- 187497
+	recipe = AddRecipe(187497, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127721, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127720, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
+	-- Taladite Firing Pin -- 187520
+	recipe = AddRecipe(187520, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127747, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127737, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(90894, 91030)
+
+	-- Infrablue-Blocker Lenses -- 187521
+	recipe = AddRecipe(187521, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127739, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127738, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(90894, 91030)
 
 	self.InitializeRecipes = nil
