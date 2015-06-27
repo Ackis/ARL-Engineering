@@ -2992,7 +2992,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118489, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(111820, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
 	-- Blingtron 5000 -- 162218
@@ -3014,10 +3014,9 @@ function module:InitializeRecipes()
 	-- Morden's Magnificent Contraption -- 169077
 	recipe = AddRecipe(169077, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(118492, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(114055, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77365, 79826, 87065, 87552)
+	recipe:Retire()
 
 	-- Didi's Delicate Assembly -- 169078
 	recipe = AddRecipe(169078, V.WOD, Q.COMMON)
@@ -3116,15 +3115,13 @@ function module:InitializeRecipes()
 	-- Blackrock Rifling -- 177364
 	recipe = AddRecipe(177364, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(120267, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(119823, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77365, 79826, 87065, 87552)
+	recipe:Retire()
 
 	-- Precision Scope Tuning Kit -- 181422
 	recipe = AddRecipe(181422, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 705, 710)
-	recipe:SetRecipeItem(122554, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122544, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:Retire()
