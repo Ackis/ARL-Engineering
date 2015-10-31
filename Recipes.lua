@@ -1496,7 +1496,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(35311, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(33093, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddMobDrop(24664)
 
 	-- Rocket Boots Xtreme -- 30556
@@ -2201,7 +2200,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44949, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER, F.PALADIN)
-	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 25277, 26907, 26955, 52651, 85918, 86012)
+	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 25277, 26907, 26955, 28697, 52651, 85918, 86012)
 
 	-- High-powered Flashlight -- 63750
 	recipe = AddRecipe(63750, V.WOTLK, Q.COMMON)
@@ -2248,7 +2247,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(59359, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.DPS, F.DK, F.PALADIN, F.WARRIOR)
-	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 45545, 52651, 85918, 86012)
+	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 28697, 45545, 52651, 85918, 86012)
 
 	-- Specialized Bio-Optic Killshades -- 81715
 	recipe = AddRecipe(81715, V.CATA, Q.COMMON)
@@ -2256,7 +2255,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(59448, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.CASTER, F.HEALER, F.DK, F.PALADIN, F.WARRIOR)
-	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 52651, 85918, 86012)
+	recipe:AddTrainer(1702, 5174, 5518, 11017, 11031, 16667, 28697, 52651, 85918, 86012)
 
 	-- Deadly Bio-Optic Killshades -- 81716
 	recipe = AddRecipe(81716, V.CATA, Q.COMMON)
@@ -2519,27 +2518,27 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(109099, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Goblin Glider -- 126392
 	recipe = AddRecipe(126392, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Ghost Iron Bolts -- 127113
 	recipe = AddRecipe(127113, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 510, 515, 520)
 	recipe:SetCraftedItem(77467, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- High-Explosive Gunpowder -- 127114
 	recipe = AddRecipe(127114, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 510, 515, 520)
 	recipe:SetCraftedItem(77468, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Lord Blastington's Scope of Doom -- 127115
 	recipe = AddRecipe(127115, V.MOP, Q.COMMON)
@@ -2547,7 +2546,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77529, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.DPS)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Mirror Scope -- 127116
 	recipe = AddRecipe(127116, V.MOP, Q.COMMON)
@@ -2555,7 +2554,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77531, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Lightweight Retinal Armor -- 127117
 	recipe = AddRecipe(127117, V.MOP, Q.COMMON)
@@ -2563,7 +2562,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77533, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.CASTER, F.HEALER, F.MAGE, F.PRIEST, F.WARLOCK)
-	recipe:AddTrainer(5174, 5518, 11017, 16726, 17222, 33586, 52636, 55143, 85918, 86012)
+	recipe:AddTrainer(5174, 5518, 11017, 16726, 17222, 28697, 33586, 52636, 55143, 85918, 86012)
 
 	-- Agile Retinal Armor -- 127118
 	recipe = AddRecipe(127118, V.MOP, Q.COMMON)
@@ -2603,7 +2602,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77538, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.CASTER, F.HEALER, F.DK, F.PALADIN, F.WARRIOR)
-	recipe:AddTrainer(5518, 11017, 11031, 16667, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(5518, 11017, 11031, 16667, 28697, 52651, 55143, 85918, 86012)
 
 	-- Reinforced Retinal Armor -- 127123
 	recipe = AddRecipe(127123, V.MOP, Q.COMMON)
@@ -2611,70 +2610,70 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77539, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.DPS, F.DK, F.PALADIN, F.WARRIOR)
-	recipe:AddTrainer(5518, 11017, 11031, 16667, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(5518, 11017, 11031, 16667, 28697, 52651, 55143, 85918, 86012)
 
 	-- Locksmith's Powderkeg -- 127124
 	recipe = AddRecipe(127124, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 510, 515, 520)
 	recipe:SetCraftedItem(77532, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- G91 Landshark -- 127127
 	recipe = AddRecipe(127127, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 535, 540, 545)
 	recipe:SetCraftedItem(77589, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Goblin Dragon Gun, Mark II -- 127128
 	recipe = AddRecipe(127128, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetCraftedItem(86607, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Blingtron 4000 -- 127129
 	recipe = AddRecipe(127129, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(600, 600, 610, 615, 620)
 	recipe:SetCraftedItem(87214, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Mist-Piercing Goggles -- 127130
 	recipe = AddRecipe(127130, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 535, 540, 545)
 	recipe:SetCraftedItem(87213, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Thermal Anvil -- 127131
 	recipe = AddRecipe(127131, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetCraftedItem(87216, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Wormhole Generator: Pandaria -- 127132
 	recipe = AddRecipe(127132, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(570, 570, 580, 585, 590)
 	recipe:SetCraftedItem(87215, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Ghost Iron Dragonling -- 127134
 	recipe = AddRecipe(127134, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetCraftedItem(77530, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_TRINKET")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Mechanical Pandaren Dragonling -- 127135
 	recipe = AddRecipe(127135, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(575, 575, 585, 590, 595)
 	recipe:SetCraftedItem(87526, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_PET")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Big Game Hunter -- 127136
 	recipe = AddRecipe(127136, V.MOP, Q.COMMON)
@@ -2682,7 +2681,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77527, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_GUN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Long-Range Trillium Sniper -- 127137
 	recipe = AddRecipe(127137, V.MOP, Q.COMMON)
@@ -2690,7 +2689,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77528, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_GUN")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Depleted-Kyparium Rocket -- 127138
 	recipe = AddRecipe(127138, V.MOP, Q.COMMON)
@@ -2698,7 +2697,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87250, "BIND_ON_EQUIP")
 	recipe:SetSpecialty(20222)
 	recipe:SetItemFilterType("ENGINEERING_MOUNT")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 29513, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Geosynchronous World Spinner -- 127139
 	recipe = AddRecipe(127139, V.MOP, Q.COMMON)
@@ -2706,7 +2705,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87251, "BIND_ON_EQUIP")
 	recipe:SetSpecialty(20219)
 	recipe:SetItemFilterType("ENGINEERING_MOUNT")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 29514, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Celestial Firework -- 128260
 	recipe = AddRecipe(128260, V.MOP, Q.COMMON)
@@ -2735,14 +2734,14 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77544, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.TANK)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Fractured Tinker's Gear -- 131212
 	recipe = AddRecipe(131212, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetCraftedItem(77547, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Precise Tinker's Gear -- 131213
 	recipe = AddRecipe(131213, V.MOP, Q.COMMON)
@@ -2750,7 +2749,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77543, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Quick Tinker's Gear -- 131214
 	recipe = AddRecipe(131214, V.MOP, Q.COMMON)
@@ -2758,7 +2757,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77542, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Rigid Tinker's Gear -- 131215
 	recipe = AddRecipe(131215, V.MOP, Q.COMMON)
@@ -2766,7 +2765,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77545, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Smooth Tinker's Gear -- 131216
 	recipe = AddRecipe(131216, V.MOP, Q.COMMON)
@@ -2774,7 +2773,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77541, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Sparkling Tinker's Gear -- 131217
 	recipe = AddRecipe(131217, V.MOP, Q.COMMON)
@@ -2782,7 +2781,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77546, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Subtle Tinker's Gear -- 131218
 	recipe = AddRecipe(131218, V.MOP, Q.COMMON)
@@ -2790,7 +2789,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77540, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.TANK)
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Autumn Flower Firework -- 131256
 	recipe = AddRecipe(131256, V.MOP, Q.COMMON)
@@ -2811,14 +2810,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(500, 500, 510, 515, 520)
 	recipe:SetCraftedItem(89991, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Tinker's Kit -- 131563
 	recipe = AddRecipe(131563, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 560, 565, 570)
 	recipe:SetCraftedItem(90146, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 33586, 52636, 52651, 55143, 85918, 86012)
+	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 28697, 33586, 52636, 52651, 55143, 85918, 86012)
 
 	-- Jard's Peculiar Energy Source -- 139176
 	recipe = AddRecipe(139176, V.MOP, Q.RARE)
