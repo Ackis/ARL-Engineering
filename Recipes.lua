@@ -2181,7 +2181,7 @@ function module:InitializeRecipes()
 	-- Mechanized Snow Goggles -- 61482
 	recipe = AddRecipe(61482, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(420, 420, 425, 432, 440)
-	recipe:SetCraftedItem(44742, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(44741, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.HUNTER, F.SHAMAN)
 	recipe:AddTrainer(1702, 4941, 5174, 5518, 11017, 11037, 16726, 17222, 25277, 26907, 26955, 26991, 28697, 33586, 45545, 52636, 52651, 55143, 85918, 86012)
