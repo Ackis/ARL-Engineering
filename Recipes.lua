@@ -1729,7 +1729,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(350, 350, 370, 380, 390)
 	recipe:SetCraftedItem(32495, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
-	recipe:AddFilters(F.CASTER, F.HEALER, F.MAGE, F.PRIEST, F.WARLOCK)
+	recipe:AddFilters(F.CASTER, F.HEALER, F.PRIEST)
 	recipe:AddTrainer(5174, 5518, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 52636, 55143, 85918, 86012)
 
 	-- Adamantite Arrow Maker -- 43676
