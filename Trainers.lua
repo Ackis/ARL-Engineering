@@ -80,6 +80,8 @@ function module:InitializeTrainers()
 	AddTrainer(55143, "Sally Fizzlefury", 		Z.VALLEY_OF_THE_FOUR_WINDS, 	16.1, 83.1, "Neutral")
 	AddTrainer(85918, "Hilda Copperfuze", 		Z.STORMSHIELD, 			48.2, 40.5, "Alliance")
 	AddTrainer(86012, "Han Leaprocket", 		Z.WARSPEAR, 			71.8, 39.2, "Horde")
+	AddTrainer(92194, "Timofey Oshenko",		Z.DALARAN_BROKENISLES,		38.2, 26.1, "Neutral")
+	AddTrainer(93520, "Didi the Wrench",		Z.DALARAN_BROKENISLES,		38.8, 24.9, "Neutral")
 
 	self.InitializeTrainers = nil
 end
