@@ -3174,5 +3174,245 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(90894, 91030)
 
+	-------------------------------------------------------------------------------
+	-- Legion.
+	-------------------------------------------------------------------------------
+	-- Blink-Trigger Headgun -- 198939
+	recipe = AddRecipe(198939, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tactical Headgun -- 198965
+	recipe = AddRecipe(198965, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Bolt-Action Headgun -- 198966
+	recipe = AddRecipe(198966, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reinforced Headgun -- 198967
+	recipe = AddRecipe(198967, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Semi-Automagic Cranial Cannon -- 198968
+	recipe = AddRecipe(198968, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sawed-Off Cranial Cannon -- 198969
+	recipe = AddRecipe(198969, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Double-Barreled Cranial Cannon -- 198970
+	recipe = AddRecipe(198970, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ironsight Cranial Cannon -- 198971
+	recipe = AddRecipe(198971, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deployable Bullet Dispenser -- 198972
+	recipe = AddRecipe(198972, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpowder Charge -- 198973
+	recipe = AddRecipe(198973, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Pump-Action Bandage Gun -- 198974
+	recipe = AddRecipe(198974, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpack -- 198975
+	recipe = AddRecipe(198975, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Auto-Hammer -- 198976
+	recipe = AddRecipe(198976, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Failure Detection Pylon -- 198977
+	recipe = AddRecipe(198977, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunshoes -- 198978
+	recipe = AddRecipe(198978, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Intra-Dalaran Wormhole Generator -- 198979
+	recipe = AddRecipe(198979, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blingtron's Circuit Design Tutorial -- 198980
+	recipe = AddRecipe(198980, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Trigger -- 198981
+	recipe = AddRecipe(198981, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Battery -- 198982
+	recipe = AddRecipe(198982, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Wormhole Generator Mode -- 198983
+	recipe = AddRecipe(198983, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Repair Mode -- 198984
+	recipe = AddRecipe(198984, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Failure Detection Mode -- 198985
+	recipe = AddRecipe(198985, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Fireworks Display Mode -- 198987
+	recipe = AddRecipe(198987, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Snack Distribution Mode -- 198988
+	recipe = AddRecipe(198988, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Bling Mode -- 198989
+	recipe = AddRecipe(198989, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reaves Module: Piloted Combat Mode -- 198990
+	recipe = AddRecipe(198990, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blink-Trigger Headgun -- 198991
+	recipe = AddRecipe(198991, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tactical Headgun -- 198992
+	recipe = AddRecipe(198992, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Bolt-Action Headgun -- 198993
+	recipe = AddRecipe(198993, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reinforced Headgun -- 198994
+	recipe = AddRecipe(198994, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Semi-Automagic Cranial Cannon -- 198995
+	recipe = AddRecipe(198995, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sawed-Off Cranial Cannon -- 198996
+	recipe = AddRecipe(198996, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Double-Barreled Cranial Cannon -- 198997
+	recipe = AddRecipe(198997, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ironsight Cranial Cannon -- 198998
+	recipe = AddRecipe(198998, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deployable Bullet Dispenser -- 198999
+	recipe = AddRecipe(198999, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpowder Charge -- 199000
+	recipe = AddRecipe(199000, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Pump-Action Bandage Gun -- 199001
+	recipe = AddRecipe(199001, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpack -- 199002
+	recipe = AddRecipe(199002, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Auto-Hammer -- 199003
+	recipe = AddRecipe(199003, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Failure Detection Pylon -- 199004
+	recipe = AddRecipe(199004, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blink-Trigger Headgun -- 199005
+	recipe = AddRecipe(199005, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tactical Headgun -- 199006
+	recipe = AddRecipe(199006, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Bolt-Action Headgun -- 199007
+	recipe = AddRecipe(199007, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Reinforced Headgun -- 199008
+	recipe = AddRecipe(199008, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Semi-Automagic Cranial Cannon -- 199009
+	recipe = AddRecipe(199009, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sawed-Off Cranial Cannon -- 199010
+	recipe = AddRecipe(199010, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Double-Barreled Cranial Cannon -- 199011
+	recipe = AddRecipe(199011, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Ironsight Cranial Cannon -- 199012
+	recipe = AddRecipe(199012, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Deployable Bullet Dispenser -- 199013
+	recipe = AddRecipe(199013, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpowder Charge -- 199014
+	recipe = AddRecipe(199014, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Pump-Action Bandage Gun -- 199015
+	recipe = AddRecipe(199015, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Gunpack -- 199016
+	recipe = AddRecipe(199016, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Auto-Hammer -- 199017
+	recipe = AddRecipe(199017, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Failure Detection Pylon -- 199018
+	recipe = AddRecipe(199018, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sonic Environment Enhancer -- 200466
+	recipe = AddRecipe(200466, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- "The Felic" -- 209501
+	recipe = AddRecipe(209501, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Shockinator -- 209502
+	recipe = AddRecipe(209502, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Leystone Buoy -- 209645
+	recipe = AddRecipe(209645, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mecha-Bond Imprint Matrix -- 209646
+	recipe = AddRecipe(209646, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+
 	self.InitializeRecipes = nil
 end
