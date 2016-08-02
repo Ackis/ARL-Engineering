@@ -37,6 +37,8 @@ function module:InitializeQuests()
 	AddQuest(9635,	Z.ZANGARMARSH,			34.0,	50.8,	"Horde")
 	AddQuest(9636,	Z.ZANGARMARSH,			68.6,	50.2,	"Alliance")
 	AddQuest(12889,	Z.THE_STORM_PEAKS,		37.7,	46.5,	"Neutral")
+	AddQuest(40877,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
+	AddQuest(40880,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
 
 	self.InitializeQuests = nil
 end

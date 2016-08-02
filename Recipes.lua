@@ -3243,11 +3243,18 @@ function module:InitializeRecipes()
 
 	-- Blingtron's Circuit Design Tutorial -- 198980
 	recipe = AddRecipe(198980, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 700, 730, 760)
+	recipe:SetRecipeItem(137692, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132518, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_PET")
+	recipe:AddQuest(40880)
 
 	-- Trigger -- 198981
 	recipe = AddRecipe(198981, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(132519, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_PET")
+	recipe:AddQuest(40877)
 
 	-- Reaves Battery -- 198982
 	recipe = AddRecipe(198982, V.LEGION, Q.COMMON)
@@ -3412,7 +3419,6 @@ function module:InitializeRecipes()
 	-- Mecha-Bond Imprint Matrix -- 209646
 	recipe = AddRecipe(209646, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-
 
 	self.InitializeRecipes = nil
 end
