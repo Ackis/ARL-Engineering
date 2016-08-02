@@ -39,6 +39,7 @@ module.ITEM_FILTER_TYPES = {
 	ENGINEERING_MOUNT = true,
 	ENGINEERING_NECK = true,
 	ENGINEERING_PET = true,
+	ENGINEERING_RELIC = true,
 	ENGINEERING_SHIELD = true,
 	ENGINEERING_TRINKET = true,
 	ENGINEERING_TOY = true,
@@ -169,6 +170,7 @@ function module:InitializeItemFilters(parent_panel)
 		engineering_mount		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MOUNTS),		text = _G.MOUNTS,		row = 3, col = 1 },
 		engineering_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 3, col = 2 },
 		engineering_toy			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.TOY_BOX),		text = _G.TOY_BOX,		row = 4, col = 1 },
+		engineering_relic		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_RELIC), 	text = _G.INVTYPE_RELIC,	row = 4, col = 2 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)
