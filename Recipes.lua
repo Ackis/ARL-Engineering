@@ -2033,7 +2033,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(56472, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 432, 435)
 	recipe:SetCraftedItem(40768, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012)
 
 	-- Gnomish X-Ray Specs -- 56473
@@ -2228,7 +2228,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(67920, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(435, 435, 450, 455, 460)
 	recipe:SetCraftedItem(48933, "BIND_ON_PICKUP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012)
 
 	-- Jeeves -- 68067
@@ -2405,7 +2405,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(84421, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(490, 490, 495, 497, 500)
 	recipe:SetCraftedItem(60854, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012)
 
 	-- Invisibility Field -- 84424
@@ -2483,7 +2483,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(500, 500, 500, 500, 505)
 	recipe:SetCraftedItem(40727, "BIND_ON_EQUIP")
 	recipe:SetSpecialty(20219)
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(1702, 4941, 5174, 5518, 7406, 7944, 11017, 11031, 11037, 16667, 16726, 17222, 17634, 25099, 26907, 26991, 28697, 29514, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012)
 
 	-- Big Daddy -- 95707
@@ -2638,7 +2638,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(127129, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(600, 600, 610, 615, 620)
 	recipe:SetCraftedItem(87214, "BIND_ON_PICKUP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 25099, 28697, 33586, 33611, 33634, 52636, 52651, 55143, 85918, 86012)
 
 	-- Mist-Piercing Goggles -- 127130
@@ -2659,7 +2659,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(127132, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(570, 570, 580, 585, 590)
 	recipe:SetCraftedItem(87215, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddTrainer(4941, 5174, 5518, 11017, 11031, 11037, 16667, 16726, 17222, 25099, 28697, 33586, 33611, 33634, 52636, 52651, 55143, 85918, 86012)
 
 	-- Ghost Iron Dragonling -- 127134
@@ -2937,7 +2937,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118480, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(109167, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
 	-- World Shrinker -- 162206
@@ -2984,7 +2984,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118488, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(112059, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
 	-- Swapblaster -- 162217
@@ -3000,7 +3000,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetRecipeItem(118490, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(111821, "BIND_ON_PICKUP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
 
 	-- Linkgrease Locksprocket -- 169076
