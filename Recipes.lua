@@ -1731,13 +1731,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.CASTER, F.HEALER, F.PRIEST)
 	recipe:AddTrainer(5174, 5518, 17634, 17637, 18752, 18775, 19576, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 52636, 55143, 85918, 86012)
 
-	-- Adamantite Arrow Maker -- 43676
-	recipe = AddRecipe(43676, V.TBC, Q.COMMON)
-	recipe:SetSkillLevels(335, 335, 335, 345, 355)
-	recipe:SetCraftedItem(20475, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-	recipe:Retire()
-
 	-- Flying Machine -- 44155
 	recipe = AddRecipe(44155, V.TBC, Q.COMMON)
 	recipe:SetSkillLevels(300, 300, 330, 340, 350)
@@ -3009,13 +3002,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(114050, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77365, 79826, 87065, 87552)
-
-	-- Morden's Magnificent Contraption -- 169077
-	recipe = AddRecipe(169077, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetCraftedItem(114055, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:Retire()
 
 	-- Didi's Delicate Assembly -- 169078
 	recipe = AddRecipe(169078, V.WOD, Q.COMMON)
