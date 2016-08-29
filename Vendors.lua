@@ -69,7 +69,6 @@ function module:InitializeVendors()
 	AddVendor(79826,	L["Pozzlow"],					Z.FROSTWALL,				0.0,	0.0,	"Horde") -- Horde Garrison
 	AddVendor(87065,	L["Sean Catchpole"],				Z.STORMSHIELD,				47.8,	40.6,	"Alliance") -- Alliance Ashran
 	AddVendor(87552,	L["Nik Steelrings"],				Z.WARSPEAR,				70.6,	39.6,	"Horde") -- Alliance Ashran
-	AddVendor(93539,	L["Hobart Grapplehammer"],			Z.DALARAN_BROKENISLES,			38.4,	24.6,	"Neutral")
 	AddVendor(102196,	L["Fargo Flintlocke"],				Z.AZSUNA,				0.0,	0.0,	"Neutral") --Needs updating
 
 	self.InitializeVendors = nil
