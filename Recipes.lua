@@ -3393,27 +3393,51 @@ function module:InitializeRecipes()
 
 	-- Deployable Bullet Dispenser -- 198999
 	recipe = AddRecipe(198999, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137705, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132509, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(93539)
 
 	-- Gunpowder Charge -- 199000
 	recipe = AddRecipe(199000, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137706, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132510, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(97366)
 
 	-- Pump-Action Bandage Gun -- 199001
 	recipe = AddRecipe(199001, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137707, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132511, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(93539)
 
 	-- Gunpack -- 199002
 	recipe = AddRecipe(199002, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137708, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132513, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(93539)
 
 	-- Auto-Hammer -- 199003
 	recipe = AddRecipe(199003, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137709, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132514, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(93539)
 
 	-- Failure Detection Pylon -- 199004
 	recipe = AddRecipe(199004, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(137710, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132515, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(93539)
 
 	-- Blink-Trigger Headgun -- 199005
 	recipe = AddRecipe(199005, V.LEGION, Q.COMMON)
@@ -3421,7 +3445,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(137711, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(132500, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
---	recipe:AddQuest() -- Needs updating
+	recipe:AddQuest(41675)
 
 	-- Tactical Headgun -- 199006
 	recipe = AddRecipe(199006, V.LEGION, Q.COMMON)
@@ -3449,63 +3473,123 @@ function module:InitializeRecipes()
 
 	-- Semi-Automagic Cranial Cannon -- 199009
 	recipe = AddRecipe(199009, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(137715, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132504, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddRepVendor(FAC.THE_WARDENS, REP.EXALTED, 107379)
 
 	-- Sawed-Off Cranial Cannon -- 199010
 	recipe = AddRecipe(199010, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(137716, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132505, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddRepVendor(FAC.THE_WARDENS, REP.EXALTED, 107379)
 
 	-- Double-Barreled Cranial Cannon -- 199011
 	recipe = AddRecipe(199011, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(137717, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132506, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
 	-- Ironsight Cranial Cannon -- 199012
 	recipe = AddRecipe(199012, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(137718, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132507, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddCustom("WITHERED_ARMY")
 
 	-- Deployable Bullet Dispenser -- 199013
 	recipe = AddRecipe(199013, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137719, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132509, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(41679)
 
 	-- Gunpowder Charge -- 199014
 	recipe = AddRecipe(199014, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137720, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132510, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(97366)
 
 	-- Pump-Action Bandage Gun -- 199015
 	recipe = AddRecipe(199015, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137721, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132511, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(41676)
 
 	-- Gunpack -- 199016
 	recipe = AddRecipe(199016, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137722, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132513, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(41678)
 
 	-- Auto-Hammer -- 199017
 	recipe = AddRecipe(199017, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137723, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132514, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(41677)
 
 	-- Failure Detection Pylon -- 199018
 	recipe = AddRecipe(199018, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(137724, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132515, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(41680)
 
 	-- Sonic Environment Enhancer -- 200466
 	recipe = AddRecipe(200466, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetRecipeItem(137725, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(132982, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(40866)
 
 	-- "The Felic" -- 209501
 	recipe = AddRecipe(209501, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 730, 740, 750)
+	recipe:SetRecipeItem(136700, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(136687, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_RELIC")
+	recipe:AddWorldDrop(Z.VIOLET_HOLD)
 
 	-- Shockinator -- 209502
 	recipe = AddRecipe(209502, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 730, 740, 750)
+	recipe:SetRecipeItem(136701, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(136688, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_RELIC")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
 	-- Leystone Buoy -- 209645
 	recipe = AddRecipe(209645, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetRecipeItem(137726, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(136606, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
 	-- Mecha-Bond Imprint Matrix -- 209646
 	recipe = AddRecipe(209646, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetRecipeItem(137727, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(134125, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddVendor(107109)
 
 	self.InitializeRecipes = nil
 end
