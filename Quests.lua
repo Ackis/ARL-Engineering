@@ -37,25 +37,31 @@ function module:InitializeQuests()
 	AddQuest(9635,	Z.ZANGARMARSH,			34.0,	50.8,	"Horde")
 	AddQuest(9636,	Z.ZANGARMARSH,			68.6,	50.2,	"Alliance")
 	AddQuest(12889,	Z.THE_STORM_PEAKS,		37.7,	46.5,	"Neutral")
-	AddQuest(40858,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40859,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40861,	Z.VALSHARAH,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40862,	Z.VALSHARAH,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40863,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40864,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40868,	Z.STORMHEIM,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40869,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40870,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40872,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40873,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40875,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40876,	Z.AZSUNA,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40877,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40878,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40879,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40880,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(40881,	Z.TANARIS,			0.0,	 0.0,	"Neutral") -- Needs updating
-	AddQuest(41680,	Z.DALARAN_BROKENISLES,		0.0,	 0.0,	"Neutral") -- Needs updating
+	AddQuest(40858,	Z.AZSUNA,			65.2,	24.8,	"Neutral")
+	AddQuest(40859,	Z.AZSUNA,			65.2,	24.8,	"Neutral")
+	AddQuest(40861,	Z.VALSHARAH,			59.8,	62.2,	"Neutral")
+	AddQuest(40862,	Z.VALSHARAH,			59.8,	62.2,	"Neutral")
+	AddQuest(40863,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40864,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40866,	Z.STORMHEIM,			78.2,	57.2,	"Neutral")
+	AddQuest(40868,	Z.STORMHEIM,			78.2,	57.2,	"Neutral")
+	AddQuest(40869,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40870,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40872,	Z.AZSUNA,			43.0,	62.8,	"Neutral")
+	AddQuest(40873,	Z.AZSUNA,			43.0,	62.8,	"Neutral")
+	AddQuest(40875,	Z.AZSUNA,			43.0,	62.8,	"Neutral")
+	AddQuest(40876,	Z.AZSUNA,			43.0,	62.8,	"Neutral")
+	AddQuest(40877,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40878,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40879,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40880,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(40881,	Z.TANARIS,			69.5,	68.4,	"Neutral")
+	AddQuest(41675,	Z.AZSUNA,			46.8,	41.4,	"Neutral")
+	AddQuest(41676,	Z.VALSHARAH,			54.6,	73.2,	"Neutral")
+	AddQuest(41677,	Z.THUNDER_TOTEM,		38.4,	46.0,	"Neutral")
+	AddQuest(41678,	Z.STORMHEIM,			60.2,	51.2,	"Neutral")
+	AddQuest(41679,	Z.SURAMAR,			36.4,	46.8,	"Neutral")
+	AddQuest(41680,	Z.DALARAN_BROKENISLES,		33.4,	47.8,	"Neutral")
 
 	self.InitializeQuests = nil
 end
