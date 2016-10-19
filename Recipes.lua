@@ -1349,7 +1349,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(23746, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_GUN")
 	recipe:AddFilters(F.DPS)
-	recipe:AddLimitedVendor(16657, 1, 16782, 1, 19661, 1, 67976, 1)
+	recipe:AddLimitedVendor(16657, 1, 16782, 1, 19661, 1, 67976, 1, 90866, 1)
 
 	-- Felsteel Boomstick -- 30314
 	recipe = AddRecipe(30314, V.TBC, Q.RARE)
@@ -1376,7 +1376,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(23758, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.DRUID, F.ROGUE, F.MONK)
-	recipe:AddVendor(67976)
+	recipe:AddVendor(67976, 90866)
 	recipe:AddLimitedVendor(18775, 1, 19836, 1)
 
 	-- Power Amplification Goggles -- 30317
@@ -1395,7 +1395,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(23762, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddVendor(67976)
+	recipe:AddVendor(67976, 90866)
 	recipe:AddLimitedVendor(18775, 1, 19383, 1)
 
 	-- Hyper-Vision Goggles -- 30325
@@ -1413,7 +1413,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(23807, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(23764, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
-	recipe:AddVendor(19351, 67976)
+	recipe:AddVendor(19351, 67976, 90866)
 	recipe:AddLimitedVendor(19836, 1)
 
 	-- Khorium Scope -- 30332
@@ -1463,7 +1463,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(23816, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(23774, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_BAG")
-	recipe:AddVendor(67976)
+	recipe:AddVendor(67976, 90866)
 	recipe:AddLimitedVendor(16657, 1, 16782, 1, 18484, 1)
 
 	-- Elemental Seaforium Charge -- 30547
