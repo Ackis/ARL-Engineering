@@ -3588,5 +3588,40 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddVendor(107109)
 
+	-- Tailored Skullblasters -- 235753 -- Needs updating
+	recipe = AddRecipe(235753, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 800, 800, 800)
+	recipe:SetRecipeItem(144335, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(144331, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+
+	-- Rugged Skullblasters -- 235754 -- Needs updating
+	recipe = AddRecipe(235754, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 800, 800, 800)
+	recipe:SetRecipeItem(144336, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(144332, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+
+	-- Chain Skullblasters -- 235755 -- Needs updating
+	recipe = AddRecipe(235755, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 800, 800, 800)
+	recipe:SetRecipeItem(144337, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(144333, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+
+	-- Heavy Skullblasters -- 235756 -- Needs updating
+	recipe = AddRecipe(235756, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 800, 800, 800)
+	recipe:SetRecipeItem(144338, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(144334, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ENGINEERING_HEAD")
+
+	-- Rechargeable Reaves Battery -- 235775 -- Needs updating
+	recipe = AddRecipe(235775, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 740, 780)
+	recipe:SetRecipeItem(144343, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(144341, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+
 	self.InitializeRecipes = nil
 end
