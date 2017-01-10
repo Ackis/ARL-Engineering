@@ -3622,6 +3622,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(144343, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(144341, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(46128)
 
 	self.InitializeRecipes = nil
 end
