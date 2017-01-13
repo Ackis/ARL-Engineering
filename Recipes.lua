@@ -3594,6 +3594,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(144335, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(144331, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddCustom("BOON_OF_THE_BUILDER")
 
 	-- Rugged Skullblasters -- 235754 -- Needs updating
 	recipe = AddRecipe(235754, V.LEGION, Q.COMMON)
@@ -3601,6 +3602,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(144336, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(144332, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddCustom("BOON_OF_THE_BUILDER")
 
 	-- Chain Skullblasters -- 235755 -- Needs updating
 	recipe = AddRecipe(235755, V.LEGION, Q.COMMON)
@@ -3608,6 +3610,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(144337, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(144333, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddCustom("BOON_OF_THE_BUILDER")
 
 	-- Heavy Skullblasters -- 235756 -- Needs updating
 	recipe = AddRecipe(235756, V.LEGION, Q.COMMON)
@@ -3615,6 +3618,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(144338, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(144334, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
+	recipe:AddCustom("BOON_OF_THE_BUILDER")
 
 	-- Rechargeable Reaves Battery -- 235775 -- Needs updating
 	recipe = AddRecipe(235775, V.LEGION, Q.COMMON)
