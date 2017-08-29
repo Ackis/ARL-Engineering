@@ -3628,5 +3628,21 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddQuest(46128)
 
+	-- Gravitational Reduction Slippers -- 247717
+	recipe = AddRecipe(247717, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 740, 760)
+	recipe:SetRecipeItem(151714, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151651, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(48056)
+
+	-- Wormhole Generator: Argus -- 247744
+	recipe = AddRecipe(247744, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 775, 787, 800)
+	recipe:SetRecipeItem(151717, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151652, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_TOY")
+	recipe:AddQuest(48065)
+
 	self.InitializeRecipes = nil
 end
