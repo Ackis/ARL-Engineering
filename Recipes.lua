@@ -1858,28 +1858,28 @@ function module:InitializeRecipes()
 
 	-- Volatile Blasting Trigger -- 53281
 	recipe = AddRecipe(53281, V.TBC, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 366, 375, 385)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(39690, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Handful of Cobalt Bolts -- 56349
 	recipe = AddRecipe(56349, V.TBC, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 370, 380)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(39681, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Hammer Pick -- 56459
 	recipe = AddRecipe(56459, V.TBC, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(40892, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Cobalt Frag Bomb -- 56460
 	recipe = AddRecipe(56460, V.TBC, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 375, 382, 390)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(40771, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
@@ -1936,7 +1936,7 @@ function module:InitializeRecipes()
 
 	-- Bladed Pickaxe -- 56461
 	recipe = AddRecipe(56461, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(40893, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
@@ -1950,14 +1950,14 @@ function module:InitializeRecipes()
 
 	-- Explosive Decoy -- 56463
 	recipe = AddRecipe(56463, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 385, 390, 395)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(40536, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Overcharged Capacitor -- 56464
 	recipe = AddRecipe(56464, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(39682, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 25277, 26907, 26955, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
@@ -2025,7 +2025,7 @@ function module:InitializeRecipes()
 
 	-- Gnomish X-Ray Specs -- 56473
 	recipe = AddRecipe(56473, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(40895, "BIND_ON_EQUIP")
 	recipe:SetSpecialty(20219)
 	recipe:SetItemFilterType("ENGINEERING_TOY")
@@ -2111,7 +2111,7 @@ function module:InitializeRecipes()
 
 	-- Global Thermal Sapper Charge -- 56514
 	recipe = AddRecipe(56514, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 425, 430, 435)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(42641, "BIND_ON_EQUIP")
 	recipe:SetSpecialty(20222)
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
@@ -2293,21 +2293,21 @@ function module:InitializeRecipes()
 
 	-- Handful of Obsidium Bolts -- 84403
 	recipe = AddRecipe(84403, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 435, 442, 450)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(60224, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Authentic Jr. Engineer Goggles -- 84406
 	recipe = AddRecipe(84406, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(440, 440, 455, 457, 460)
+	recipe:SetSkillLevels(365, 365, 375, 380, 385)
 	recipe:SetCraftedItem(60222, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_HEAD")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- R19 Threatfinder -- 84408
 	recipe = AddRecipe(84408, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 470, 472, 475)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(59595, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS)
@@ -2322,7 +2322,7 @@ function module:InitializeRecipes()
 
 	-- Safety Catch Removal Kit -- 84410
 	recipe = AddRecipe(84410, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 470, 472, 475)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(59596, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2453,14 +2453,14 @@ function module:InitializeRecipes()
 
 	-- Electrified Ether -- 94748
 	recipe = AddRecipe(94748, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(445, 445, 455, 460, 465)
+	recipe:SetSkillLevels(370, 370, 380, 385, 390)
 	recipe:SetCraftedItem(67749, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_MATERIALS")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
 
 	-- Electrostatic Condenser -- 95703
 	recipe = AddRecipe(95703, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(440, 440, 450, 452, 455)
+	recipe:SetSkillLevels(365, 365, 375, 380, 385)
 	recipe:SetCraftedItem(67494, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
 	recipe:AddTrainer(1702, 3494, 4941, 5174, 5518, 8736, 11017, 11025, 11031, 11037, 16667, 16726, 17222, 17634, 17637, 25099, 26907, 26991, 28697, 33586, 33611, 33634, 45545, 52636, 52651, 55143, 85918, 86012, 92194)
