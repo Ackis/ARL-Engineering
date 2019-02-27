@@ -29,6 +29,7 @@ function module:InitializeDiscoveries()
 
 	AddDiscovery("ENG_DISC")
 	AddDiscovery("ENG_DISC_FIREWORKS")
+	AddDiscovery("DISCOVERY_ENG_BFA")
 
 	self.InitializeDiscoveries = nil
 end

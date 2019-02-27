@@ -66,6 +66,7 @@ function module:InitializeVendors()
 	AddVendor(87552,	L["Nik Steelrings"],				Z.WARSPEAR,				70.6,	39.6,	"Horde") -- Alliance Ashran
 	AddVendor(90866,	L["Tinkmaster Overspark"],			Z.STORMHEIM,				33.6,	50.8,	"Neutral")
 	AddVendor(102196,	L["Fargo Flintlocke"],				Z.AZSUNA,				43.0,	62.8,	"Neutral")
+	AddVendor(147070,	L["Micro Zoox"],				Z.DUN_MOROGH,				34.0,	37.6,	"Neutral")
 
 	self.InitializeVendors = nil
 end

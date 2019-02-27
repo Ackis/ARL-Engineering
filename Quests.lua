@@ -60,6 +60,18 @@ function module:InitializeQuests()
 	AddQuest(46128,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
 	AddQuest(48056,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
 	AddQuest(48065,	Z.DALARAN_BROKENISLES,		38.6,	25.0,	"Neutral")
+	AddQuest(52363,	Z.BORALUS,			73.2,	11.0,	"Alliance")
+	AddQuest(52364,	Z.DRUSTVAR,			37.8,	49.0,	"Alliance")
+	AddQuest(52365,	Z.DRUSTVAR,			37.8,	49.0,	"Alliance")
+	AddQuest(52366, Z.BORALUS,			67.6,	21.8,	"Alliance")
+	AddQuest(52367,	Z.STORMSONG_VALLEY,		59.2,	69.4,	"Alliance")
+	AddQuest(52368,	Z.BORALUS,			73.2,	11.0,	"Alliance")
+	AddQuest(52369,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
+	AddQuest(52370, Z.VOLDUN,			56.6,	49.8,	"Horde")
+	AddQuest(52371,	Z.VOLDUN,			56.6,	49.8,	"Horde")
+	AddQuest(52372,	Z.NAZMIR,			39.0,	79.4,	"Horde")
+	AddQuest(52373,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
+	AddQuest(52374,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
 
 	self.InitializeQuests = nil
 end

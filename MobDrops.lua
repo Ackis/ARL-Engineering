@@ -43,6 +43,8 @@ function module:InitializeMobDrops()
 	AddMob(19960,	L["Doomforge Engineer"],		Z.BLADES_EDGE_MOUNTAINS,	75.1, 39.8)
 	AddMob(20207,	L["Sunfury Bowman"],			Z.NETHERSTORM,			56.8, 64.6)
 	AddMob(23386,	L["Gan'arg Analyzer"],			Z.BLADES_EDGE_MOUNTAINS,	33.0, 52.5)
+	AddMob(138122,	BN.DOOMS_HOWL,				Z.ARATHI_HIGHLANDS,		38.6, 40.2)
+	AddMob(144838,	BN.HIGH_TINKER_MEKKATORQUE,		Z.BATTLE_OF_DAZARALOR,		0.0, 0.0)
 
 	self.InitializeMobDrops = nil
 end

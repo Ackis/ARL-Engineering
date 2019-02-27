@@ -69,6 +69,7 @@ function module:InitializeTrainers()
 	AddTrainer(33586, "Binkie Brightgear", 		Z.ICECROWN, 			72.1, 20.9, "Neutral")
 	AddTrainer(33611, "Engineering", 		Z.SHATTRATH_CITY, 		43.7, 90.1, "Neutral")
 	AddTrainer(33634, "Engineer Sinbei", 		Z.SHATTRATH_CITY, 		43.1, 64.9, "Neutral")
+	AddTrainer(33677, "Technician Mihila", 		Z.SHATTRATH_CITY, 		37.7, 31., "Neutral")
 	AddTrainer(45545, "\"Jack\" Pisarek Slamfix", 	Z.ORGRIMMAR, 			36.3, 86.7, "Horde")
 	AddTrainer(52636, "Tana Lentner", 		Z.DARNASSUS, 			49.6, 32.3, "Alliance")
 	AddTrainer(52651, "Engineer Palehoof", 		Z.THUNDER_BLUFF, 		36.1, 59.6, "Horde")
@@ -77,6 +78,8 @@ function module:InitializeTrainers()
 	AddTrainer(86012, "Han Leaprocket", 		Z.WARSPEAR, 			71.8, 39.2, "Horde")
 	AddTrainer(92194, "Timofey Oshenko",		Z.DALARAN_BROKENISLES,		38.2, 26.1, "Neutral")
 	AddTrainer(93520, "Didi the Wrench",		Z.DALARAN_BROKENISLES,		38.8, 24.9, "Neutral")
+	AddTrainer(131840, "Shuga Blastcaps",		Z.DAZARALOR, 			45.08, 40.57, "Horde")
+	AddTrainer(136059, "Layla Evenkeel", 		Z.BORALUS, 			77.3, 14.2, "Alliance")
 
 	self.InitializeTrainers = nil
 end

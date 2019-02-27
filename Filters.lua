@@ -36,11 +36,13 @@ module.ITEM_FILTER_TYPES = {
 	ENGINEERING_MATERIALS = true,
 	ENGINEERING_MOUNT = true,
 	ENGINEERING_NECK = true,
+	ENGINEERING_ONE_HAND_MACE = true,
 	ENGINEERING_PET = true,
 	ENGINEERING_RELIC = true,
 	ENGINEERING_SHIELD = true,
 	ENGINEERING_TRINKET = true,
 	ENGINEERING_TOY = true,
+
 }
 
 function module:InitializeItemFilters(parent_panel)
@@ -116,6 +118,7 @@ function module:InitializeItemFilters(parent_panel)
 		engineering_crossbow		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Crossbow"]), 		text = L["Crossbow"],			row = 1, col = 2 },
 		engineering_gun			= { tt = L["FILTER_DESC_FORMAT"]:format(L["Gun"]), 			text = L["Gun"],			row = 2, col = 1 },
 		engineering_main_hand		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_WEAPONMAINHAND), 	text = _G.INVTYPE_WEAPONMAINHAND,	row = 2, col = 2 },
+		engineering_one_hand_mace 	= { tt = L["FILTER_DESC_FORMAT"]:format(L["One-Handed Mace"]), 		text = L["One-Handed Mace"],		row = 3, col = 1 },
 	}
 
 	weapon_toggle:SetScript("OnClick", function(self, button)
@@ -132,7 +135,7 @@ function module:InitializeItemFilters(parent_panel)
 	parent_panel.weapon_toggle = weapon_toggle
 
 	local weapon_panel = _G.CreateFrame("Frame", nil, parent_panel)
-	weapon_panel:SetHeight(50)
+	weapon_panel:SetHeight(70)
 	weapon_panel:SetPoint("TOP", weapon_toggle, "BOTTOM")
 	weapon_panel:SetPoint("LEFT", parent_panel, "LEFT")
 	weapon_panel:SetPoint("RIGHT", parent_panel, "RIGHT")
