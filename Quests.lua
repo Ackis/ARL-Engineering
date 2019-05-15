@@ -72,6 +72,8 @@ function module:InitializeQuests()
 	AddQuest(52372,	Z.NAZMIR,			39.0,	79.4,	"Horde")
 	AddQuest(52373,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
 	AddQuest(52374,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
+	AddQuest(53937,	Z.DAZARALOR,			44.2,	32.2,	"Horde")
+	AddQuest(53949,	Z.BORALUS,			77.4,	14.2,	"Alliance")
 
 	self.InitializeQuests = nil
 end

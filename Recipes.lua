@@ -4193,6 +4193,32 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ENGINEERING_GUN")
 	recipe:AddVendor(142552, 142564)
 
+	-- The Ub3r-Spanner -- 282975
+	recipe = AddRecipe(282975, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(150, 150, 150, 150, 150)
+	recipe:SetCraftedItem(164740, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(53937, 53949)
+
+	-- Ub3r-Module: Short-Fused Bomb Bots -- 283399
+	recipe = AddRecipe(283399, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(150, 150, 150, 150, 150)
+	recipe:SetCraftedItem(164740, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(53937, 53949)
+
+	-- Ub3r-Module: Ub3r S3ntry Mk. X8.0 -- 283401
+	recipe = AddRecipe(283401, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(150, 150, 150, 150, 150)
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(53937, 53949)
+
+	-- Ub3r-Module: Ub3r-Improved Target Dummy -- 283403
+	recipe = AddRecipe(283403, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(150, 150, 150, 150, 150)
+	recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
+	recipe:AddQuest(53937, 53949)
+
 	-- Unstable Temporal Time Shifter -- 283914
 	recipe = AddRecipe(283914, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(85, 85, 95, 100, 105)
